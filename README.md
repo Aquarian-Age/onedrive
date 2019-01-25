@@ -44,6 +44,11 @@ curl -fsS https://dlang.org/install.sh | bash -s dmd
 ```sh
 sudo pacman -S curl sqlite dlang
 ```
+### Dependencies: openSUSE
+```sh
+sudo zypper in dmd phobos-devel-static libcurl-devel sqlite3-devel
+
+```
 
 ### Installation
 ```sh
