@@ -46,7 +46,8 @@ sudo pacman -S curl sqlite dlang
 ```
 ### Dependencies: openSUSE
 ```sh
-sudo zypper in dmd phobos-devel-static libcurl-devel sqlite3-devel
+sudo zypper addrepo --check --refresh --name "D" http://download.opensuse.org/repositories/devel:/languages:/D/openSUSE_Leap_15.0/devel:languages:D.repo
+sudo zypper in dmd phobos-devel phobos-devel-static libcurl-devel sqlite3-devel libnotify-devel
 
 ```
 
